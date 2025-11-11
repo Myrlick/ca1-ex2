@@ -1,0 +1,57 @@
+git switch -h
+git branch -h
+git stage
+git revert -h
+git push -h
+git merge -h
+git add remote origin -h
+git add -h
+git remote -h
+git fetch ?
+git fetch -h
+git reset -h
+git config --global user.name "John Doe"
+git config --global user.email "johndoe@example.com"
+git config --global core.autocrlf false
+git init ca1-ex2
+git status
+git status
+git branch -m master main
+git add .
+git status
+git add .
+git status
+git rm --cached .aws_keys.log
+git rm --cached aws_keys.log
+git status
+git status
+git add .gitignore
+git status
+git status
+git add .
+git commit -m "First commit"
+git switch -c feature_local_test
+git add .
+git switch main
+git switch feature_local_test
+git commit -m "new print2
+
+"
+git switch main
+git add .
+git commit -m "new print"
+git merge feature_local_test
+git status
+git switch feature_local_test
+git add .
+git commit
+git commit -m "changes"
+git switch main
+git add .
+git commit -m "change"
+git add .
+git commit -m "change"
+git merge feature_local_test
+git remote add origin https://github.com/Myrlick/ca1-ex2.git
+git push -u origin main
+git pull
